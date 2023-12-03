@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestDemoJUnitTest" project="unit-test-assignment" tests="7" started="7" failures="0" errors="1" ignored="0">
+  <testsuite name="com.promineotech.TestDemoJUnitTest" time="0.064" displayname="TestDemoJUnitTest" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]">
+    <testsuite name="assertThatThreePositiveNumbersAreAveragedCorrectly(com.promineotech.TestDemoJUnitTest)" time="0.046" displayname="assertThatThreePositiveNumbersAreAveragedCorrectly(int, int, int, int, boolean)" parameters="int,int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatThreePositiveNumbersAreAveragedCorrectly(int, int, int, int, boolean)]">
+      <testcase name="assertThatThreePositiveNumbersAreAveragedCorrectly" classname="com.promineotech.TestDemoJUnitTest" time="0.046" dynamicTest="true" displayname="[1] 2, 4, 6, 4, false" parameters="int,int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatThreePositiveNumbersAreAveragedCorrectly(int, int, int, int, boolean)]/[test-template-invocation:#1]"/>
+      <testcase name="assertThatThreePositiveNumbersAreAveragedCorrectly" classname="com.promineotech.TestDemoJUnitTest" time="0.0" dynamicTest="true" displayname="[2] 5, 15, 10, 10, false" parameters="int,int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatThreePositiveNumbersAreAveragedCorrectly(int, int, int, int, boolean)]/[test-template-invocation:#2]"/>
+      <testcase name="assertThatThreePositiveNumbersAreAveragedCorrectly" classname="com.promineotech.TestDemoJUnitTest" time="0.005" dynamicTest="true" displayname="[3] 0, 11, 3, 5, true" parameters="int,int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatThreePositiveNumbersAreAveragedCorrectly(int, int, int, int, boolean)]/[test-template-invocation:#3]"/>
+    </testsuite>
+    <testsuite name="assertThatTwoPositiveNumbersAreAddedCorrectly(com.promineotech.TestDemoJUnitTest)" time="0.001" displayname="assertThatTwoPositiveNumbersAreAddedCorrectly(int, int, int, boolean)" parameters="int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatTwoPositiveNumbersAreAddedCorrectly(int, int, int, boolean)]">
+      <testcase name="assertThatTwoPositiveNumbersAreAddedCorrectly" classname="com.promineotech.TestDemoJUnitTest" time="0.001" dynamicTest="true" displayname="[1] 2, 4, 6, false" parameters="int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatTwoPositiveNumbersAreAddedCorrectly(int, int, int, boolean)]/[test-template-invocation:#1]"/>
+      <testcase name="assertThatTwoPositiveNumbersAreAddedCorrectly" classname="com.promineotech.TestDemoJUnitTest" time="0.001" dynamicTest="true" displayname="[2] 42, 500, 542, false" parameters="int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatTwoPositiveNumbersAreAddedCorrectly(int, int, int, boolean)]/[test-template-invocation:#2]"/>
+      <testcase name="assertThatTwoPositiveNumbersAreAddedCorrectly" classname="com.promineotech.TestDemoJUnitTest" time="0.001" dynamicTest="true" displayname="[3] 0, 1, 3, true" parameters="int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[test-template:assertThatTwoPositiveNumbersAreAddedCorrectly(int, int, int, boolean)]/[test-template-invocation:#3]"/>
+    </testsuite>
+    <testcase name="assertThatNumberSquaredIsCorrect" classname="com.promineotech.TestDemoJUnitTest" time="0.003" displayname="assertThatNumberSquaredIsCorrect(int, int, int, boolean)" parameters="int,int,int,boolean" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.TestDemoJUnitTest]/[method:assertThatNumberSquaredIsCorrect(int, int, int, boolean)]">
+      <error>org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [int arg0] in method [void com.promineotech.TestDemoJUnitTest.assertThatNumberSquaredIsCorrect(int,int,int,boolean)].&#13;
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.resolveParameter(ExecutableInvoker.java:200)&#13;
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.resolveParameters(ExecutableInvoker.java:183)&#13;
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.resolveParameters(ExecutableInvoker.java:144)&#13;
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:96)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)&#13;
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)&#13;
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)&#13;
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
